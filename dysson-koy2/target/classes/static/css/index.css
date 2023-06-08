@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "CookieRun-Regular";
+  src: url('../fonts/CookieRun-Regular.woff') format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  font-family: "CookieRun-Regular";
+}
+a:hover { text-decoration:none !important}
+
+#header {
+  padding-top: 22px;
+  height: 100px;
+  background-color: #212529;
+}
+
+.blue {
+  border: 1px solid dodgerblue;
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  background-color: dodgerblue;
+  color: #FFF;
+}
+
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+.btn-hover color-1 {
+
+}
